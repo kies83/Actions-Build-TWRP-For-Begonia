@@ -113,7 +113,7 @@ jobs:
           lunch ${{env.ProductFileHeader}}_${{env.device}}-eng
           echo "::endgroup::"
           echo "::group::Sync"
-          repo sync -j4
+          repo sync -j2
           echo "::endgroup::"
           echo "::group::Build ${{env.Rec_name}}"
           mka ${{env.target}}
