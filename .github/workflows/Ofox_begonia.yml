@@ -24,7 +24,7 @@ env:
   ProductFileHeader: omni
   target: recoveryimage
   WorkSpace: WorkSpace
-  TZ: Asia/Karachi
+  TZ: Asia/Shanghai
   Author: ${{github.actor}}
   Delete_old: false
 
