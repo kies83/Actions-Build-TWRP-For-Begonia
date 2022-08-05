@@ -19,11 +19,11 @@ env:
   Rec_name: TWRP11
   Rec_ver: 3.6.0
   Rec_url: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11
-  device: X655C
-  DT_url: https://github.com/kies83/x655c_h6211abkg-q-op -b android-10
-  DT_path: device/infinix/X655C
-  ProductFileHeader: omni
-  target: recoveryimage
+  device: KF6k
+  DT_url: https://github.com/fahad15090/device-tecno-kf6k -b main
+  DT_path: device/tecno/KF6k
+  ProductFileHeader: twrp
+  target: bootimage
   WorkSpace: WorkSpace
   TZ: Asia/Shanghai
   Author: ${{github.actor}}
