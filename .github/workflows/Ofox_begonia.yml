@@ -16,7 +16,7 @@ on:
         default: "false"
 env:
   Rec_name: Ofox
-  Rec_ver: "11.0"
+  Rec_ver: "10.0"
   Rec_url: https://gitlab.com/OrangeFox/sync.git -b master
   device: X655C
   DT_url: https://github.com/kies83/x655c_h6211abkg-q-op -b android-10
